@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TidyUp Cleaning Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2937;
+      background-color: #f9fafb;
+    }
+    header {
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #16a34a;
+      padding: 14px 28px;
+      border-radius: 9999px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #16a34a;
+    }
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .about img {
+      width: 100%;
+      border-radius: 20px;
+    }
+    .contact {
+      background-color: #ecfdf5;
+      border-radius: 20px;
+      padding: 40px;
+    }
+    footer {
+      background-color: #064e3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      .about { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TidyUp</h1>
+    <p>Professional, reliable cleaning services for homes & businesses</p>
+    <a href="#contact" class="btn">Get a Free Quote</a>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:40px;">Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Residential Cleaning</h3>
+        <p><strong>From R350</strong></p>
+        <p>Once-off or weekly home cleaning.</p>
+      </div>
+      <div class="card">
+        <h3>Weekly Cleaning Package</h3>
+        <p><strong>From R1,200 / month</strong></p>
+        <p>Perfect for busy households (4 visits).</p>
+      </div>
+      <div class="card">
+        <h3>Bi-Weekly Cleaning Package</h3>
+        <p><strong>From R700</strong></p>
+        <p>Every second week home cleaning.</p>
+      </div>
+      <div class="card">
+        <h3>Commercial Cleaning</h3>
+        <p><strong>From R650</strong></p>
+        <p>Offices, shops & businesses.</p>
+      </div>
+      <div class="card">
+        <h3>Office Monthly Contract</h3>
+        <p><strong>From R2,500 / month</strong></p>
+        <p>Daily or weekly office cleaning.</p>
+      </div>
+      <div class="card">
+        <h3>Deep Cleaning</h3>
+        <p><strong>From R950</strong></p>
+        <p>Full top-to-bottom cleaning.</p>
+      </div>
+      <div class="card">
+        <h3>Move-In / Move-Out</h3>
+        <p><strong>From R1,100</strong></p>
+        <p>Ideal for tenants & landlords.</p>
+      </div>
+      <div class="card">
+        <h3>After-Construction</h3>
+        <p><strong>From R1,200</strong></p>
+        <p>Post-renovation cleaning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#ffffff; border-radius:20px;">
+    <h2 style="text-align:center; margin-bottom:40px;">Pricing</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Residential Cleaning</h3>
+        <p><strong>From R350</strong></p>
+        <p>Ideal for apartments and homes. Weekly or once-off options.</p>
+      </div>
+      <div class="card">
+        <h3>Commercial Cleaning</h3>
+        <p><strong>From R650</strong></p>
+        <p>Offices, shops, and workspaces. Custom plans available.</p>
+      </div>
+      <div class="card">
+        <h3>Deep Cleaning</h3>
+        <p><strong>From R950</strong></p>
+        <p>Thorough top-to-bottom cleaning for a fresh start.</p>
+      </div>
+      <div class="card">
+        <h3>After-Construction</h3>
+        <p><strong>From R1,200</strong></p>
+        <p>Dust, debris, and residue removal after renovations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="about">
+      <div>
+        <h2>Why Choose TidyUp?</h2>
+        <p>
+          At TidyUp, we believe a clean space creates peace of mind. Our trained
+          and trustworthy cleaners use eco-friendly products and proven methods
+          to deliver outstanding results every time.
+        </p>
+        <ul>
+          <li>✔ Reliable & professional staff</li>
+          <li>✔ Affordable pricing</li>
+          <li>✔ Eco-friendly cleaning products</li>
+          <li>✔ 100% satisfaction guarantee</li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80" alt="Cleaning service" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch today for a free quote or to book a cleaning service.</p>
+
+      <form onsubmit="sendToWhatsApp(event)" style="margin-top:20px; display:grid; gap:16px; max-width:500px;">
+        <h3>Book a Cleaning</h3>
+        <input id="date" type="date" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;" />
+        <input id="time" type="time" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;" />
+        <input id="name" type="text" placeholder="Full Name" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;" />
+        <input id="email" type="email" placeholder="Email Address" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;" />
+        <input id="phone" type="tel" placeholder="Phone Number" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;" />
+        <select id="service" required onchange="updatePricing()" style="padding:12px; border-radius:10px; border:1px solid #d1d5db;">
+          <option value="">Select Service</option>
+          <option value="Residential">Residential Cleaning</option>
+          <option value="Commercial">Commercial Cleaning</option>
+          <option value="Deep">Deep Cleaning</option>
+          <option value="Move">Move-In / Move-Out</option>
+          <option value="Construction">After-Construction Cleaning</option>
+        </select>
+
+        <select id="price" required style="padding:12px; border-radius:10px; border:1px solid #d1d5db;">
+          <option value="">Select Pricing Option</option>
+          <option data-service="Residential">Residential – From R350</option>
+          <option data-service="Residential">Weekly Cleaning – From R1,200 / month</option>
+          <option data-service="Residential">Bi-Weekly Cleaning – From R700</option>
+          <option data-service="Commercial">Commercial – From R650</option>
+          <option data-service="Commercial">Office Contract – From R2,500 / month</option>
+          <option data-service="Deep">Deep Cleaning – From R950</option>
+          <option data-service="Move">Move-In / Move-Out – From R1,100</option>
+          <option data-service="Construction">After-Construction – From R1,200</option>
+        </select>
+        <textarea id="details" placeholder="Additional details" rows="4" style="padding:12px; border-radius:10px; border:1px solid #d1d5db;"></textarea>
+        <button type="submit" class="btn" style="border:none; cursor:pointer;">Send via WhatsApp</button>
+        <p style="font-size:0.85rem; color:#6b7280;">Your booking will open directly in WhatsApp.</p>
+      </form>
+
+      <p style="margin-top:30px;"><strong>Phone:</strong> 064 101 5951</p>
+      <p><strong>Email:</strong> nkhutsaneenterprise321@gmail.com</p>
+      <p><strong>Service Areas:</strong> Residential & Commercial</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 TidyUp Cleaning Services. All rights reserved.
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/27641015951" target="_blank"
+     style="position:fixed; bottom:20px; right:20px; background:#22c55e; color:white; padding:16px 20px; border-radius:9999px; text-decoration:none; font-weight:bold; box-shadow:0 10px 25px rgba(0,0,0,0.2);">
+    WhatsApp Us
+  </a>
+
+<script>
+  function updatePricing() {
+    const service = document.getElementById('service').value;
+    const priceSelect = document.getElementById('price');
+    const options = priceSelect.querySelectorAll('option');
+
+    priceSelect.value = '';
+
+    options.forEach(option => {
+      if (!option.dataset.service) return;
+      option.style.display = option.dataset.service === service ? 'block' : 'none';
+    });
+  }
+
+  function sendToWhatsApp(e) {
+    e.preventDefault();
+    const msg = `New Cleaning Booking%0A%0A` +
+      `Name: ${document.getElementById('name').value}%0A` +
+      `Phone: ${document.getElementById('phone').value}%0A` +
+      `Email: ${document.getElementById('email').value}%0A` +
+      `Service: ${document.getElementById('service').value}%0A` +
+      `Pricing Option: ${document.getElementById('price').value}%0A` +
+      `Date: ${document.getElementById('date').value}%0A` +
+      `Time: ${document.getElementById('time').value}%0A` +
+      `Details: ${document.getElementById('details').value}`;
+
+    window.open(`https://wa.me/27641015951?text=${msg}`, '_blank');
+  }
+</script>
+
+</body>
+</html>
